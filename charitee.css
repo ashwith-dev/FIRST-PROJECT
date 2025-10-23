@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+#header{
+    display: flex;
+    gap: 70px;
+}
+
+#logo{
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+#contact {
+    display: flex;
+    gap: 40px;
+    margin: 10px 30px;
+}
+
+#navigation{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+#contact button{
+    background-color: rgb(220, 79, 28);
+    border: 2px solid rgb(220, 79, 28);
+    padding: 20px 40px;
+    color: white;
+    font-weight:100;
+}
+
+#contact button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+ 
+#contact p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+#firstpage{
+    background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+#number {
+    border-bottom: 3px dotted white;
+    padding-bottom: 5px;
+}
+
+#navigation p:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
