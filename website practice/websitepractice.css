@@ -6,7 +6,7 @@
 #firstpage{
     background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/10-2025/Home_Hero_KV-1-v2.jpg?$1920_N_JPG$);
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 1470px;
     height: 800px;
     background-color: aqua;
 }
@@ -97,6 +97,7 @@
     justify-content: center;
     gap: 20px;
     margin-left: 90px;
+    margin-bottom: 147px;
 }
 
 #centretop{
@@ -137,3 +138,81 @@
     transition: transform 0.4s ease;
 }
 
+#tv{
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/10-2025/Feature-KV-VD_v2.jpg?$1440_N_JPG$);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+}
+
+#tvtagline{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: 'SamsungSharpSans', arial, sans-serif;
+    font-size: 66px;
+    color: black;
+    line-height: 1.2;
+    word-wrap: break-word;
+    align-items: center;
+    margin-left: 400px;
+    padding-top: 250px;
+}
+
+#buytv{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 70px;
+    padding-left: 260px;
+    margin-bottom: 300px;
+}
+
+#buytv button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: transparent;
+    border:1px solid black
+}
+
+#buytv button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+#buytv p{
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    text-shadow: 1px 1px 2px white;
+}
+
+#buytv p:hover{
+    cursor: pointer;
+}
+
+#tvproducts{
+    display: flex;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#tvproducts img{
+    height: auto;
+    width: 100%;
+}
+
+#tvproducts .products{
+    margin: 0px 10px;
+}
+
+#tvproducts .productname{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
