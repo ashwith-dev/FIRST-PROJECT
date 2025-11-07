@@ -37,8 +37,15 @@
     padding-left: 50px;
 }
 
+#about h2:hover{
+    color: rgba(197, 0, 0, 0.828);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
 #about h2{
-    font-weight: 200;
+    font-weight: 600;
 }
 
 #about p{
@@ -58,6 +65,10 @@
     gap: 50px;
 }
 
+#skills h2{
+    margin-left: 60px;
+}
+
 #allskills{
     display: flex;
     gap: 50px;
@@ -65,9 +76,18 @@
     margin-left: 30px;
 }
 
+#skills h2:hover{
+    color: rgba(197, 0, 0, 0.828);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
 #allskills p{
     border: 1px solid rgb(131, 131, 131);
     padding: 20px 50px;
+    margin-left: 70px;
+    font-weight: 200px;
 }
 
 #allskills p:hover{
@@ -75,9 +95,79 @@
     background-color: rgb(220, 215, 215);
     color: black;
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 #education{
     color: white;
     border-bottom: 1px solid #615c5c;
+    margin: 10px 200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#education h2{
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+#education h2:hover{
+    color: rgba(197, 0, 0, 0.828);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#education h4{
+    margin: 10px 0px 10px 90px ;
+}
+
+#education p{
+    margin: 5px 10px 5px 100px;
+}
+
+#contact{
+    color: white;
+    margin: 10px 200px;
+    height: 350px;
+    border-bottom: 1px solid #615c5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact h2:hover{
+    color: rgba(197, 0, 0, 0.828);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#contact a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+}
+
+#contact a:hover{
+    border-bottom: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+#contact p{
+    margin-left: 90px;
+}
+
+#contact h2{
+    margin:40px 0px 40px 60px;
+}
+
+#hastag{
+    color: #615c5c;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
