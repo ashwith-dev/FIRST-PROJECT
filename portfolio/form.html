@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .star {
+        color: red;
+      }
+    </style>
+  </head>
+
+
+  <body>
+    <!-- <div class="body-div">
+      <form>
+        <div>
+          <label>Enter months</label>
+          <input type="tel" />
+        </div>
+        <br />
+        <div>
+          <label>Mobile number</label>
+          <input type="tel" placeholder="enter your mobile number" />
+        </div>
+
+
+        <label>Enter email </label>
+        <input type="email" placeholder="enter your email" />
+        <br />
+
+
+        <div>
+          <label for="password">Enter your password</label>
+          <input type="password" />
+        </div>
+
+
+        <label>Enter your dob</label>
+        <input type="date" />
+
+
+        <lable>Are you a student <span class="star">*</span></lable>
+        <input type="checkbox" required />
+
+
+        <div>
+          <lable>Description</lable>
+          <br />
+          <label>MR.</label>
+          <input type="radio" value="Mr." name="decription" />
+
+
+          <label>Ms.</label>
+          <input type="radio" value="Ms." name="decription" />
+
+
+          <label>Dr.</label>
+          <input type="radio" value="Dr." name="decription" />
+        </div>
+
+
+        <input type="textarea" />
+
+
+        <div>
+          <button type="reset">Reset</button>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div> -->
+    <div class="container">
+        <h1> Form</h1>
+        <form id="myForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+              <button type="reset">reset</button>
+        </form>
+        <div id="displayData"></div>
+    </div>
+    <script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const description = document.getElementById('description').value;
+
+    if (name === '' || email === '' || password === '' || description === '') {
+        alert('Please fill out all fields.');
+        return;
+    }
+   const displayData = document.getElementById('displayData');
+    displayData.innerHTML = `
+        <h2>Submitted Data:</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Password:</strong> ${password}</p>
+        <p><strong>Description:</strong> ${description}</p>
+    `;
+});
+</script>
+  </body>
+  
+</html>
