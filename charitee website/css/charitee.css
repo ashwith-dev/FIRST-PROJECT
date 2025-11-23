@@ -3,6 +3,16 @@
     padding:0;
 }
 
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+a:hover{
+    color: #65C9BB;
+    transition: all 0.2s ease;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
