@@ -71,37 +71,6 @@ a:hover{
     font-size: 20px;
 }
 
-#content1 {
-    font-family: "Jost";
-    padding: 120px 0px 70px 120px;
-    width: 440px;
-    display: flex;
-    flex-direction: column;
-}
-
-#content1 h1{
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.1;
-    margin-bottom: 50px;
-    color: white;
-}
-
-#content{
-    display: flex;
-    justify-content: center;
-}
-#heading1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#heading1 p{
-    margin-left: 200px;
-}
-
 #programs-section {
     display: flex;
     justify-content: space-evenly;
