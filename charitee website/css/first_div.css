@@ -1,3 +1,11 @@
+#first{
+    background-image: url(/assets/h2_hero1.jpg.webp);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #content1 {
     font-family: "Jost";
     padding: 120px 0px 70px 120px;
