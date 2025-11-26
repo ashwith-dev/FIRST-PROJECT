@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #65C9BB;
+    transition: all 0.2s ease;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+#header{
+    display: flex;
+    gap: 70px;
+}
+
+#logo{
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+#contact {
+    display: flex;
+    gap: 40px;
+    margin: 10px 30px;
+}
+
+#navigation{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+#contact button{
+    background-color: rgb(220, 79, 28);
+    border: 2px solid rgb(220, 79, 28);
+    padding: 20px 40px;
+    color: white;
+    font-weight:100;
+}
+
+#contact button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+ 
+#contact p {
+    margin-top: 20px;
+    font-size: 20px;
+}
